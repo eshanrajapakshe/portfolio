@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.10de8615.chunk.css",
-    "main.js": "/static/js/main.0501c989.chunk.js",
-    "main.js.map": "/static/js/main.0501c989.chunk.js.map",
+    "main.js": "/static/js/main.b7291e7b.chunk.js",
+    "main.js.map": "/static/js/main.b7291e7b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.36b4c5c7.js",
     "runtime-main.js.map": "/static/js/runtime-main.36b4c5c7.js.map",
     "static/js/2.ed5b4315.chunk.js": "/static/js/2.ed5b4315.chunk.js",
@@ -15,9 +15,7 @@
     "static/media/AdobeXD.3f781232.png": "/static/media/AdobeXD.3f781232.png",
     "static/media/Figma-logo.0f4098dc.svg": "/static/media/Figma-logo.0f4098dc.svg",
     "static/media/Jenkins.88df1095.svg": "/static/media/Jenkins.88df1095.svg",
-    "static/media/Main-Image.343ce0d8.png": "/static/media/Main-Image.343ce0d8.png",
     "static/media/React-Bootstrap.534ba574.svg": "/static/media/React-Bootstrap.534ba574.svg",
-    "static/media/about-image.49acfbcc.jpg": "/static/media/about-image.49acfbcc.jpg",
     "static/media/ant-design.9bc8753a.svg": "/static/media/ant-design.9bc8753a.svg",
     "static/media/bootstrap.0f85b6ef.svg": "/static/media/bootstrap.0f85b6ef.svg",
     "static/media/css.212d777a.svg": "/static/media/css.212d777a.svg",
@@ -35,6 +33,6 @@
     "static/js/runtime-main.36b4c5c7.js",
     "static/js/2.ed5b4315.chunk.js",
     "static/css/main.10de8615.chunk.css",
-    "static/js/main.0501c989.chunk.js"
+    "static/js/main.b7291e7b.chunk.js"
   ]
 }
