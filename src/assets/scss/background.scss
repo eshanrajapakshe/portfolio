@@ -1,0 +1,25 @@
+.circle {
+  border-radius: 50%;
+  border: 2px #202333 dotted;
+  position: absolute;
+  z-index: 0;
+}
+
+.circle.two {
+  width: 275px;
+  height: 275px;
+  left: -10px;
+  bottom: 0;
+}
+.circle.eight {
+  width: 250px;
+  height: 250px;
+  top: -120px;
+  left: 200px;
+}
+.circle.fourteen {
+  width: 220px;
+  height: 220px;
+  left: -10px;
+  top: 20px;
+}
