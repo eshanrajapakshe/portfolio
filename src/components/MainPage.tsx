@@ -39,7 +39,7 @@ const MainPage = () => {
         </h1>
         {/* <h4>Senior Software Engineer</h4> */}
         <h5>
-          I am an experienced Associate Technical Lead with over 6 years of
+          I am an experienced Associate Technical Lead with over 7 years of
           extensive experience. I specialize in designing and developing
           flawless websites and web applications. If you are looking for a
           skilled professional to collaborate with, I would be thrilled to work
