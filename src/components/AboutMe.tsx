@@ -8,7 +8,7 @@ import MyImage from "../assets/images/about-image.jpg";
 const AboutMe = () => {
   const downloadCV = () => {
     window.open(
-      "https://drive.google.com/file/d/1C0xQeZABzgT3kvHU4PLh3WwH4SZbSIq6/view?usp=sharing",
+      "https://drive.google.com/file/d/10S4t5TkkdunndVrGaae-diIqqpfxqESz/view?usp=sharing",
     );
   };
 
