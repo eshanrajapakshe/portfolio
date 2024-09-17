@@ -36,8 +36,8 @@ const WhatIDo = () => {
           <img src={UiDesign} alt="" />
           <h4>UI Design</h4>
           <h6>
-            Wireframing and Designing modern attractive mobile first user
-            interfaces with Adobe Photoshop, Illustrator and other Wireframing
+            Wireframing and design of modern, attractive, mobile-first user
+            interfaces using Adobe Photoshop, Illustrator, and other wireframing
             tools.
           </h6>
         </div>
@@ -45,8 +45,8 @@ const WhatIDo = () => {
           <img src={UiDev} alt="" />
           <h4>UI Development</h4>
           <h6>
-            Develop flexibility and efficiency of use fully mobile responsive,
-            cross browser compatible user interfaces with considering usability
+            Develop flexible and efficient fully mobile-responsive,
+            cross-browser compatible user interfaces while considering usability
             and accessibility.
           </h6>
         </div>
@@ -54,9 +54,10 @@ const WhatIDo = () => {
           <img src={Dev} alt="" />
           <h4>Front-end Development</h4>
           <h6>
-            Develop user interface with JavaScript frameworks and libraries and
-            CSS Preprocessors. Integration with RESTful Services and APIs.
-            Testing and Debugging. Git and Version Control Systems
+            Developing user interfaces using JavaScript frameworks and
+            libraries, CSS preprocessors, integrating with RESTful services and
+            APIs, testing and debugging, and utilizing Git and Version Control
+            Systems.
           </h6>
         </div>
       </div>

@@ -12,6 +12,11 @@ const AboutMe = () => {
     );
   };
 
+  const experienceYears = () => {
+    const currentYear = new Date().getFullYear();
+    return currentYear - 2017;
+  };
+
   return (
     <div className="about-me-section">
       <BackgroundTwo style="about-me-bg" />
@@ -84,7 +89,7 @@ const AboutMe = () => {
             <div className="experience-main">
               <h6>Experience</h6>
               <div>
-                <h1>6</h1>
+                <h1>{experienceYears()}</h1>
                 <span>+ YEARS</span>
               </div>
             </div>

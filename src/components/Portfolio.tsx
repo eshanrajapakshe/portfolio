@@ -58,7 +58,7 @@ const Portfolio = () => {
         </div>
 
         <div className="project">
-          <a href="https://www.biogenorganic.com/" target="_blank">
+          <a href="https://eshanrajapakshe.github.io/biogen/" target="_blank">
             <div className="project-role">
               <Badge role={roles.uiDesign} />
               <Badge role={roles.uiDev} />
@@ -85,6 +85,35 @@ const Portfolio = () => {
               Transformed the online presence for Spice Chest, a leading Spices
               and Herbs exporting company, by designing, developing, and hosting
               their website to align seamlessly with their unique requirements.
+            </p>
+          </a>
+        </div>
+
+        <div className="project">
+          <a href="https://integrityalert.ai/" target="_blank">
+            <div className="project-role">
+              <Badge role={roles.uiDev} />
+            </div>
+            <h3>IntegrityAlert.ai Corporate Website</h3>
+            <h5>HTML5, CSS, JavaScript</h5>
+            <p>
+              IntegrityAlert.ai, tailored for global enterprises, fosters active
+              corporate integrity engagement by seamlessly integrating AI and
+              human participation.
+            </p>
+          </a>
+        </div>
+
+        <div className="project">
+          <a href="https://www.rezgateway.com/" target="_blank">
+            <div className="project-role">
+              <Badge role={roles.uiDev} />
+            </div>
+            <h3>Reservations Gateway Corporate Website</h3>
+            <h5>HTML5, CSS, JavaScript</h5>
+            <p>
+              Rezgateway is a software development agency & even offers
+              customers its own data analytics platform.
             </p>
           </a>
         </div>

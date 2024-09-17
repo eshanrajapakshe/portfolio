@@ -4,6 +4,12 @@
   color: white;
   z-index: 1;
   position: relative;
+  display: flex;
+  align-items: center;
+
+  @include tabLandscape {
+    flex-direction: column-reverse;
+  }
 }
 
 .main-page::before {
@@ -17,8 +23,30 @@
   z-index: 1;
 }
 
-.main-page::after {
-  content: "";
+// .main-page::after {
+//   content: "";
+//   position: absolute;
+//   top: 0;
+//   right: 0;
+//   width: 60%;
+//   height: 90%;
+//   border-radius: 0 0 0 70px;
+//   background-color: #0f1223;
+//   z-index: 1;
+
+//   @include tabLandscape {
+//     top: 20%;
+//     width: 73%;
+//     border-radius: 70px 0 0 70px;
+//   }
+
+//   @include tab {
+//     height: 78%;
+//   }
+// }
+
+.main-image-main {
+  z-index: 1;
   position: absolute;
   top: 0;
   right: 0;
@@ -26,54 +54,31 @@
   height: 90%;
   border-radius: 0 0 0 70px;
   background-color: #0f1223;
-  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
 
   @include tabLandscape {
-    top: 20%;
-    width: 73%;
-    border-radius: 70px 0 0 70px;
-  }
-
-  @include tab {
-    height: 78%;
-  }
-}
-
-.main-image-main {
-  position: absolute;
-  right: 15%;
-  bottom: 10%;
-  display: inline-block;
-  z-index: 2;
-
-  @include desktop {
-    right: 5%;
-  }
-
-  @include tabLandscape {
-    bottom: -10%;
-    right: 17%;
-  }
-
-  @include tab {
-    bottom: 2%;
-    right: 12%;
+    width: 93%;
+    height: auto;
+    position: unset;
+    padding-top: 16px;
   }
 
   img {
-    width: 23vw;
-    margin-bottom: -6px;
-
-    @include desktopLarge {
-      width: 29vw;
-    }
+    width: auto;
+    height: 90%;
+    margin-bottom: -20px;
 
     @include tabLandscape {
-      width: 36vw;
+      margin-bottom: -36px;
     }
 
-    @include tab {
-      width: 50vw;
+    @include mobile {
+      width: inherit;
+      height: auto;
+      margin-bottom: unset;
     }
   }
 }
@@ -82,8 +87,8 @@
   z-index: 2;
   position: relative;
   left: 5%;
-  margin-top: 24vh;
   display: inline-block;
+  max-width: calc(100% - 6%);
 
   h1 {
     font-size: calc(10px + 10vmin);
@@ -104,9 +109,9 @@
   }
 
   h4 {
-    font-weight: 300;
+    font-weight: 400;
     color: color(tertiaryColor);
-    font-size: 22px;
+    font-size: 16px;
     text-transform: uppercase;
   }
 
@@ -126,26 +131,23 @@
     }
 
     @include tabLandscape {
-      width: 56%;
-    }
-
-    @include tab {
-      width: 88%;
+      width: 96%;
     }
   }
 
   @include tabLandscape {
-    margin-top: 10vh;
+    max-width: unset;
+    left: unset;
+    margin-top: 48px;
+    padding: 0 24px;
   }
 }
 
 .social-profiles {
   display: flex;
   justify-content: center;
-  position: absolute;
-  right: 19%;
-  bottom: 8%;
-  z-index: 2;
+  flex-wrap: wrap;
+  margin-bottom: -16px;
 
   div {
     background-color: aliceblue;
@@ -168,10 +170,6 @@
     @include tabLandscape {
       margin: 15px 0;
     }
-
-    @include mobile {
-      margin: 0 8px;
-    }
   }
 
   div:hover {
@@ -183,28 +181,13 @@
       0 100px 80px rgba(0, 0, 0, 0.12);
   }
 
-  @include desktopLarge {
-    right: 17vw;
-  }
-
-  @include desktop {
-    right: 5vw;
-  }
-
   @include tabLandscape {
-    right: 2%;
-    flex-direction: column;
-    bottom: 20%;
-  }
-
-  @include tab {
-    bottom: 24%;
+    gap: 12px;
+    margin-bottom: -30px;
   }
 
   @include mobile {
-    right: 7%;
-    flex-direction: inherit;
-    bottom: 4px;
+    margin-bottom: -32px;
   }
 }
 
