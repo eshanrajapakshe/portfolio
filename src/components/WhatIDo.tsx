@@ -1,4 +1,5 @@
 import React from "react";
+import { useScrollAnimation } from "../hooks/useScrollAnimation";
 import HTML from "../assets/images/tech/html.png";
 import CSS from "../assets/images/tech/css.svg";
 import JS from "../assets/images/tech/javascript.png";
@@ -28,8 +29,15 @@ import UiDev from "../assets/images/skills/002-responsive-design.png";
 import Dev from "../assets/images/skills/003-gear.png";
 
 const WhatIDo = () => {
+  const { ref, isVisible } = useScrollAnimation({ threshold: 0.15 });
+
   return (
-    <div className="what-i-do-section">
+    <div
+      ref={ref}
+      className={`what-i-do-section fade-in-section ${
+        isVisible ? "is-visible" : ""
+      }`}
+    >
       <h1>SPECIALIZING IN</h1>
       <div className="what-i-do-main container">
         <div>

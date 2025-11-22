@@ -243,9 +243,13 @@ $lg: 1200px;
   }
 }
 
+@import "./assets/scss/animations.scss";
+@import "./assets/scss/cv-modal.scss";
 @import "./assets/scss/background.scss";
 @import "./assets/scss/main-page.scss";
 @import "./assets/scss/about-me.scss";
 @import "./assets/scss/what-i-do.scss";
+@import "./assets/scss/open-source.scss";
 @import "./assets/scss/portfolio.scss";
+@import "./assets/scss/codepen-showcase.scss";
 @import "./assets/scss/say-hello.scss";

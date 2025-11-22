@@ -2,6 +2,7 @@ import React from "react";
 import BackgroundOne from "./backgrounds/BackgroundOne";
 
 import MainImage from "../assets/images/Main-Image.png";
+import { calculateYearsOfExperience } from "../utils/experienceCalculator";
 
 const MainPage = () => {
   const scrollFunc = () => {
@@ -39,11 +40,11 @@ const MainPage = () => {
         </h1>
         {/* <h4>Senior Software Engineer</h4> */}
         <h5>
-          I am an experienced Associate Technical Lead with over 7 years of
-          extensive experience. I specialize in designing and developing
-          flawless websites and web applications. If you are looking for a
-          skilled professional to collaborate with, I would be thrilled to work
-          with you.
+          I am an experienced Associate Technical Lead with over{" "}
+          {calculateYearsOfExperience()} years of extensive experience. I
+          specialize in designing and developing flawless websites and web
+          applications. If you are looking for a skilled professional to
+          collaborate with, I would be thrilled to work with you.
         </h5>
       </div>
 
